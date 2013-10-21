@@ -12,8 +12,8 @@ flag_definitions = {
     'DFS':		1<<4,
     'PTP-ONLY':		1<<5,
     'PTMP-ONLY':	1<<6,
-    'PASSIVE-SCAN':	1<<7,
-    'NO-IBSS':		1<<8,
+    'NO-IR':	        1<<7,
+    # hole at bit 8
     # hole at bit 9. FIXME: Where is NO-HT40 defined?
     'NO-HT40':		1<<10,
 }
