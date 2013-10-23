@@ -205,13 +205,10 @@ class DBParser(object):
 
     def _parse_power_def(self, pname, line, dupwarn=True):
         try:
-            (max_ant_gain,
-             max_eirp) = line.split(',')
-            if max_ant_gain == 'N/A':
-                max_ant_gain = '0'
+            max_eirp = line
             if max_eirp == 'N/A':
                 max_eirp = '0'
-            max_ant_gain = float(max_ant_gain)
+            max_ant_gain = float(0)
             def conv_pwr(pwr):
                 if pwr.endswith('mW'):
                     pwr = float(pwr[:-2])
