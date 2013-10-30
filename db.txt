@@ -558,8 +558,7 @@ country MX: DFS-FCC
 
 country NL: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (20), NO-OUTDOOR
-	(5250 - 5330 @ 80), (20), NO-OUTDOOR
+	(5170 - 5330 @ 80), (20), NO-OUTDOOR
 	(5490 - 5710 @ 80), (27), DFS
 	# 60 gHz band channels 1-4, ref: Etsi En 302 567
 	(57240 - 65880 @ 2160), (40), NO-OUTDOOR
