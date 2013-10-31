@@ -645,7 +645,7 @@ country PR: DFS-FCC
 
 country QA: DFS-JP
 	(2402 - 2482 @ 40), (20)
-	(5735 - 5835 @ 40), (30)
+	(5735 - 5835 @ 80), (30)
 
 country RO: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
