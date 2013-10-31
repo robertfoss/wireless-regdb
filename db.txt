@@ -408,7 +408,7 @@ country IS: DFS-ETSI
 
 country IR: DFS-JP
 	(2402 - 2482 @ 40), (20)
-	(5735 - 5835 @ 40), (30)
+	(5735 - 5835 @ 80), (30)
 
 country IT: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
