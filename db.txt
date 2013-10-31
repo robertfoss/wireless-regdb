@@ -618,7 +618,7 @@ country PH: DFS-FCC
 
 country PK: DFS-JP
 	(2402 - 2482 @ 40), (20)
-	(5735 - 5835 @ 40), (30)
+	(5735 - 5835 @ 80), (30)
 
 country PL: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
