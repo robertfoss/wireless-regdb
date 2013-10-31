@@ -141,7 +141,7 @@ country BY: DFS-ETSI
 
 country BZ: DFS-JP
 	(2402 - 2482 @ 40), (30)
-	(5735 - 5835 @ 40), (30)
+	(5735 - 5835 @ 80), (30)
 
 country CA: DFS-FCC
 	(2402 - 2472 @ 40), (27)
