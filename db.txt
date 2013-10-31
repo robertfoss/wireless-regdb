@@ -91,6 +91,7 @@ country BB: DFS-FCC
 
 country BD: DFS-JP
 	(2402 - 2482 @ 40), (20)
+	(5735 - 5835 @ 80), (30)
 
 country BE: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
