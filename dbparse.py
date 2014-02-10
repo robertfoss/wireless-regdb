@@ -144,7 +144,10 @@ class DBParser(object):
     def _parse_band_def(self, bname, banddef, dupwarn=True):
         try:
             freqs, bw = banddef.split('@')
-            bw = float(bw)
+            if bw == "AUTO":
+                bw = 0.0
+            else:
+                bw = float(bw)
         except ValueError:
             bw = 20.0
 
