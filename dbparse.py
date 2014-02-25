@@ -16,6 +16,7 @@ flag_definitions = {
     # hole at bit 8
     # hole at bit 9. FIXME: Where is NO-HT40 defined?
     'NO-HT40':		1<<10,
+    'AUTO-BW':		1<<11,
 }
 
 dfs_regions = {
