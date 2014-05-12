@@ -585,11 +585,18 @@ country NL: DFS-ETSI
 	# 60 gHz band channels 1-4, ref: Etsi En 302 567
 	(57240 - 65880 @ 2160), (40), NO-OUTDOOR
 
+# Data from http://www.lovdata.no/dokument/SF/forskrift/2012-01-19-77
+# Power at 5250 - 5350 MHz, 5470 - 5725 MHz and 5815 – 5850 MHz can
+# be doubled if TPC is implemented.
+# Up to 2W (or 4W with TPC) is allowed in the 5725 – 5795 MHz band
+# which has been merged with 5470 - 5725 MHz to allow wide channels
 country NO: DFS-ETSI
-	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (20)
-	(5250 - 5330 @ 80), (20), DFS
-	(5490 - 5710 @ 80), (27), DFS
+	(2400 - 2483.5 @ 40), (100 mW)
+	(5150 - 5250 @ 80), (200 mW)
+	(5250 - 5350 @ 80), (100 mW), DFS
+	(5470 - 5795 @ 80), (500 mW), DFS
+	(5815 - 5850 @ 35), (2000 mW), DFS
+	(17100 - 17300 @ 200), (100 mW)
 	# 60 gHz band channels 1-4, ref: Etsi En 302 567
 	(57240 - 65880 @ 2160), (40), NO-OUTDOOR
 
