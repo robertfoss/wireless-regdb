@@ -874,9 +874,13 @@ country UZ: DFS-ETSI
 	(5170 - 5250 @ 80), (20)
 	(5250 - 5330 @ 80), (20), DFS
 
+# Source:
+# Official Gazette (Gaceta Oficial) concerning Unlicensed transmitter use
+# (10 June 2013)
+# http://www.conatel.gob.ve/
 country VE: DFS-FCC
-	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (17)
+	(2402 - 2482 @ 40), (30)
+	(5170 - 5250 @ 80), (23)
 	(5250 - 5330 @ 80), (23), DFS
 	(5735 - 5835 @ 80), (30)
 
