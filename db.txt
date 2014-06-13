@@ -1,8 +1,8 @@
 # This is the world regulatory domain
 country 00:
-	(2402 - 2472 @ AUTO), (20)
+	(2402 - 2472 @ 40), (20)
 	# Channel 12 - 13.
-	(2457 - 2482 @ AUTO), (20), NO-IR
+	(2457 - 2482 @ 40), (20), NO-IR
 	# Channel 14. Only JP enables this and for 802.11b only
 	(2474 - 2494 @ 20), (20), NO-IR, NO-OFDM
 	# Channel 36 - 48
