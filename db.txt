@@ -998,6 +998,14 @@ country UZ: DFS-ETSI
 	(5250 - 5330 @ 80), (20), DFS
 
 # Source:
+# http://www.ntrc.vc/regulations/Jun_2006_Spectrum_Managment_Regulations.pdf
+country VC: DFS-ETSI
+	(2402 - 2482 @ 40), (20)
+	(5170 - 5250 @ 80), (20)
+	(5250 - 5330 @ 80), (20), DFS
+	(5490 - 5710 @ 80), (27), DFS
+
+# Source:
 # Official Gazette (Gaceta Oficial) concerning Unlicensed transmitter use
 # (10 June 2013)
 # http://www.conatel.gob.ve/
