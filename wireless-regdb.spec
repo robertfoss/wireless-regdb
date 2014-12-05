@@ -16,7 +16,7 @@ BuildArch: noarch
 %description
 This package contains the wireless regulatory database used by all
 cfg80211 based Linux wireless drivers. The wireless database being
-used is maintained by John Linville, the Linux wireless kernel maintainer
+used is maintained by Seth Forshee.
 http://wireless.kernel.org/en/developers/Regulatory/
 
 %prep

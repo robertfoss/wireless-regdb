@@ -32,7 +32,7 @@ REGDB_AUTHOR ?= $(shell if [ -f $(DISTRO_PRIVKEY) ]; then \
 REGDB_PRIVKEY ?= ~/.wireless-regdb-$(REGDB_AUTHOR).key.priv.pem
 REGDB_PUBKEY ?= $(REGDB_AUTHOR).key.pub.pem
 
-REGDB_UPSTREAM_PUBKEY ?= linville.key.pub.pem
+REGDB_UPSTREAM_PUBKEY ?= sforshee.key.pub.pem
 
 REGDB_CHANGED = $(shell $(SHA1SUM) -c --status sha1sum.txt >/dev/null 2>&1; \
         if [ $$? -ne 0 ]; then \
@@ -103,7 +103,6 @@ install: regulatory.bin.5.gz
 	if [ -f .custom ]; then \
 		install -m 644 -t $(DESTDIR)/$(CRDA_KEY_PATH)/ $(shell cat .custom); \
 	fi
-	@# In linville we trust
 	install -m 644 -t $(DESTDIR)/$(CRDA_KEY_PATH)/ $(REGDB_UPSTREAM_PUBKEY)
 	install -m 644 -t $(DESTDIR)/$(CRDA_PATH)/ regulatory.bin
 	install -m 755 -d $(DESTDIR)/$(MANDIR)/man5/
