@@ -1104,6 +1104,10 @@ country TW: DFS-JP
 	(5650 - 5710 @ 40), (30), DFS
 	(5735 - 5835 @ 80), (30)
  
+country TZ:
+	(2402 - 2482 @ 40), (20)
+	(5735 - 5835 @ 80), (30)
+
 # Source:
 # #914 / 06 Sep 2007: http://www.ucrf.gov.ua/uk/doc/nkrz/1196068874
 # #1174 / 23 Oct 2008: http://www.nkrz.gov.ua/uk/activities/ruling/1225269361
