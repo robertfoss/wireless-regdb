@@ -141,6 +141,12 @@ country BG: DFS-ETSI
 	(5170 - 5250 @ 80), (20), AUTO-BW
 	(5250 - 5330 @ 80), (20), DFS, AUTO-BW
 	(5490 - 5710 @ 160), (27), DFS
+	# 5 gHz Short Range Devices, ref:
+	# Etsi EN 300 440-1
+	# Etsi EN 300 440-2
+	# http://crc.bg/files/_bg/Spisak_2015.pdf
+	# http://crc.bg/files/_bg/Pravila_2015_resh24.pdf
+	(5725 - 5875 @ 80), (14)
 	# 60 gHz band channels 1-4, ref: Etsi En 302 567
 	(57000 - 66000 @ 2160), (40)
 
