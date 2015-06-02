@@ -998,6 +998,8 @@ country RU: DFS-ETSI
 	(5250 - 5330 @ 40), (20), DFS
 	(5650 - 5730 @ 40), (30), DFS
 	(5735 - 5835 @ 40), (30)
+	# 60 GHz band channels 1-4, ref: Changes to NLA 124_Order №129_22042015.pdf
+	(57000 - 66000 @ 2160), (40)
 
 country RW: DFS-FCC
 	(2402 - 2482 @ 40), (20)
