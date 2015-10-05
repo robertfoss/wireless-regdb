@@ -1125,11 +1125,11 @@ country TT: DFS-FCC
 # LP0002 Low-power Radio-frequency Devices Technical Regulations / 28 Jun 2011:
 #   http://www.ncc.gov.tw/english/show_file.aspx?table_name=news&file_sn=681
 #   (section 3.10.1, 4.7)
-country TW: DFS-JP
+country TW: DFS-FCC
 	(2400 - 2483.5 @ 40), (30)
 	# Follow US 5.15 ~ 5.25 GHz: 30 dBm for master mode, 23 dBm for clients
 	(5150 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5350 @ 80), (17), DFS, AUTO-BW
+	(5250 - 5350 @ 80), (23), DFS, AUTO-BW
 	(5470 - 5725 @ 160), (23), DFS
 	(5725 - 5850 @ 80), (30)
  
