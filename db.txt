@@ -1118,11 +1118,17 @@ country TT: DFS-FCC
 	(5490 - 5730 @ 160), (24), DFS
 	(5735 - 5835 @ 80), (30)
 
+# Source:
+# Table of Frequency Allocations of Republic of China (Taiwan) / Nov 2014:
+#   http://www.motc.gov.tw/websitedowndoc?file=post/201411171137330.doc& \
+#      filedisplay=Table+of+radio+frequency+allocation.doc
+# LP0002 Low-power Radio-frequency Devices Technical Regulations / 28 Jun 2011:
+#   http://www.ncc.gov.tw/english/show_file.aspx?table_name=news&file_sn=681
+#   (section 3.10.1, 4.7)
 country TW: DFS-JP
 	(2402 - 2472 @ 40), (30)
 	(5270 - 5330 @ 40), (17), DFS
-	(5490 - 5590 @ 80), (30), DFS
-	(5650 - 5710 @ 40), (30), DFS
+	(5470 - 5725 @ 160), (23), DFS
 	(5735 - 5835 @ 80), (30)
  
 country TZ:
