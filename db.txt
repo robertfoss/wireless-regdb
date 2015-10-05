@@ -1146,8 +1146,9 @@ country TZ:
 # disputable definitions there.
 country UA: DFS-ETSI
 	(2400 - 2483.5 @ 40), (20), NO-OUTDOOR
-	(5150 - 5350 @ 40), (20), NO-OUTDOOR
-	(5490 - 5670 @ 80), (20), DFS
+	(5150 - 5250 @ 80), (20), NO-OUTDOOR, AUTO-BW
+	(5250 - 5350 @ 80), (20), DFS, NO-OUTDOOR, AUTO-BW
+	(5490 - 5670 @ 160), (20), DFS
 	(5735 - 5835 @ 80), (20)
 	# 60 gHz band channels 1-4, ref: Etsi En 302 567
 	(57000 - 66000 @ 2160), (40)
