@@ -1126,10 +1126,10 @@ country TT: DFS-FCC
 #   http://www.ncc.gov.tw/english/show_file.aspx?table_name=news&file_sn=681
 #   (section 3.10.1, 4.7)
 country TW: DFS-JP
-	(2402 - 2472 @ 40), (30)
-	(5270 - 5330 @ 40), (17), DFS
+	(2400 - 2483.5 @ 40), (30)
+	(5250 - 5350 @ 80), (17), DFS
 	(5470 - 5725 @ 160), (23), DFS
-	(5735 - 5835 @ 80), (30)
+	(5725 - 5850 @ 80), (30)
  
 country TZ:
 	(2402 - 2482 @ 40), (20)
