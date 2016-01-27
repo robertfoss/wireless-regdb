@@ -275,6 +275,12 @@ country CR: DFS-FCC
 	(5490 - 5730 @ 20), (24), DFS
 	(5735 - 5835 @ 20), (30)
 
+# http://www.mincom.gob.cu/?q=marcoregulatorio
+# - Redes Informáticas
+# Resolución 127, 2011 - Reglamento Banda 2,4 GHz.
+country CU: DFS-FCC
+	(2400 - 2483.5 @ 40), (200 mW)
+
 country CX: DFS-FCC
 	(2402 - 2482 @ 40), (20)
 	(5170 - 5250 @ 80), (24), AUTO-BW
