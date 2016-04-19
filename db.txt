@@ -319,6 +319,9 @@ country CZ: DFS-ETSI
 # limit is used here as the non-interference with radar and satellite
 # apps relies on the attenuation by the building walls only in the
 # absence of DFS; the neighbour countries have 100mW limit here as well.
+# The ETSI EN 300 440-1 standard for short range devices in the 5 GHz band has
+# been implemented in Germany:
+# https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Allgemeinzuteilungen/2014_69_SRD_pdf.pdf
 
 country DE: DFS-ETSI
 	# entries 279004 and 280006
@@ -329,6 +332,8 @@ country DE: DFS-ETSI
 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW
 	# entries 308002, 309001 and 310003
 	(5470 - 5725 @ 160), (500 mW), DFS
+	# short range devices (ETSI EN 300 440-1)
+	(5725 - 5875 @ 80), (25 mW)
 	# 60 GHz band channels 1-4, ref: Etsi En 302 567
 	(57000 - 66000 @ 2160), (40)
 
