@@ -136,19 +136,35 @@ country BF: DFS-FCC
 	(5490 - 5730 @ 160), (24), DFS
 	(5735 - 5835 @ 80), (30)
 
+# Bulgarian rules as defined by the Communications Regulation Commission in the
+# following documents:
+#
+# Rules for carrying out electronic communications through radio equipment using
+# radio spectrum, which does not need to be individually assigned (the Rules):
+# http://www.crc.bg/files/_bg/Pravila_09_06_2015.pdf
+#
+# List of radio equipment that uses harmonized within the European Union bands
+# and electronic communications terminal equipment (the List):
+# http://www.crc.bg/files/_bg/Spisak_2015.pdf
+#
+# Note: The transmit power limits in the 5250-5350 MHz and 5470-5725 MHz bands
+# can be raised by 3 dBm if TPC is enabled. Refer to BDS EN 301 893 for details.
 country BG: DFS-ETSI
+	# Wideband data transmission systems (WDTS) in the 2.4GHz ISM band, ref:
+	# I.22 of the List, BDS EN 300 328
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (20), AUTO-BW
+	# 5 GHz Radio Local Area Networks (RLANs), ref:
+	# II.H01 of the List, BDS EN 301 893
+	(5170 - 5250 @ 80), (23), AUTO-BW
 	(5250 - 5330 @ 80), (20), DFS, AUTO-BW
+	# II.H01 of the List, I.54 from the List, BDS EN 301 893
 	(5490 - 5710 @ 160), (27), DFS
-	# 5 GHz Short Range Devices, ref:
-	# Etsi EN 300 440-1
-	# Etsi EN 300 440-2
-	# http://crc.bg/files/_bg/Spisak_2015.pdf
-	# http://crc.bg/files/_bg/Pravila_2015_resh24.pdf
+	# Short range devices (SRDs) in the 5725-5875 MHz frequency range, ref:
+	# I.43 of the List, BDS EN 300 440-2, BDS EN 300 440-1
 	(5725 - 5875 @ 80), (14)
-	# 60 GHz band channels 1-4, ref: Etsi En 302 567
-	(57000 - 66000 @ 2160), (40)
+	# 60 GHz Multiple-Gigabit RLAN Systems, ref:
+	# II.H03 of the List, BDS EN 302 567-2
+	(57000 - 66000 @ 2160), (40), NO-OUTDOOR
 
 country BH: DFS-JP
 	(2402 - 2482 @ 40), (20)
