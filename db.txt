@@ -580,11 +580,10 @@ country IL: DFS-ETSI
 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW
 	(5250 - 5350 @ 80), (200 mW), NO-OUTDOOR, DFS, AUTO-BW
 
-country IN: DFS-JP
+country IN:
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (20), AUTO-BW
-	(5250 - 5330 @ 80), (20), DFS, AUTO-BW
-	(5735 - 5835 @ 80), (20)
+	(5150 - 5350 @ 160), (23)
+	(5725 - 5875 @ 80), (23)
 
 country IR: DFS-JP
 	(2402 - 2482 @ 40), (20)
