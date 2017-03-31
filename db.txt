@@ -236,9 +236,11 @@ country BZ: DFS-JP
 	(2402 - 2482 @ 40), (30)
 	(5735 - 5835 @ 80), (30)
 
+# Source:
+# https://www.ic.gc.ca/eic/site/smt-gst.nsf/vwapj/rss-247-i2-e.pdf/$file/rss-247-i2-e.pdf
 country CA: DFS-FCC
 	(2402 - 2472 @ 40), (30)
-	(5150 - 5250 @ 80), (23), AUTO-BW
+	(5150 - 5250 @ 80), (23), NO-OUTDOOR, AUTO-BW
 	(5250 - 5350 @ 80), (24), DFS, AUTO-BW
 	(5470 - 5600 @ 80), (24), DFS
 	(5650 - 5730 @ 80), (24), DFS
