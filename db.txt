@@ -1078,12 +1078,17 @@ country SE: DFS-ETSI
 	# 60 GHz band channels 1-4, ref: Etsi En 302 567
 	(57000 - 66000 @ 2160), (40)
 
+# Source
+# https://www.imda.gov.sg/~/media/imda/files/regulation%20licensing%20and%20consultations/ict%20standards/telecommunication%20standards/radio-comms/imdatssrd.pdf?la=en
+# page 12-14
+# The EIRP for 5250 – 5350 can be increased by 3dB if TPC is implemented.
 country SG: DFS-FCC
-	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (17), AUTO-BW
-	(5250 - 5330 @ 80), (24), DFS, AUTO-BW
-	(5490 - 5730 @ 160), (24), DFS
-	(5735 - 5835 @ 80), (30)
+	(2400 - 2483.5 @ 40), (23)
+	(5150 - 5250 @ 80), (23), AUTO-BW
+	(5250 - 5350 @ 80), (20), DFS, AUTO-BW
+	# 5470 - 5725 is only allowed when TPC is implemented
+	# (5470 - 5725 @ 160), (30), DFS
+	(5725 - 5850 @ 80), (30)
 
 country SI: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
