@@ -1174,15 +1174,16 @@ country TT: DFS-FCC
 	(5735 - 5835 @ 80), (30)
 
 # Source:
-# Table of Frequency Allocations of Republic of China (Taiwan) / Nov 2014:
-#   http://www.motc.gov.tw/websitedowndoc?file=post/201411171137330.doc& \
-#      filedisplay=Table+of+radio+frequency+allocation.doc
-# LP0002 Low-power Radio-frequency Devices Technical Regulations / 28 Jun 2011:
+# Table of Frequency Allocations of Republic of China (Taiwan) / Feb 2017:
+#   https://www.motc.gov.tw/websitedowndoc?file=post/201702221012200.doc& \
+#	filedisplay=Table%2Bof%2Bradio%2Bfrequency%2Ballocation.doc
+# LP0002 Low-power Radio-frequency Devices Technical Regulations / 23 Aug 2016:
 #   http://www.ncc.gov.tw/english/show_file.aspx?table_name=news&file_sn=681
-#   (section 3.10.1, 4.7)
 country TW: DFS-FCC
+	# 2.4g band, LP0002 section 3.10.1
 	(2400 - 2483.5 @ 40), (30)
-	# Follow US 5.15 ~ 5.25 GHz: 30 dBm for master mode, 23 dBm for clients
+	# 5g U-NII band, LP0002 section 4.7
+	# 5.15 ~ 5.25 GHz: 30 dBm for master mode, 23 dBm for clients
 	(5150 - 5250 @ 80), (23), AUTO-BW
 	(5250 - 5350 @ 80), (23), DFS, AUTO-BW
 	(5470 - 5725 @ 160), (23), DFS
