@@ -18,8 +18,8 @@ python module is used by the web viewer (Regulatory.py) which is
 implemented as a MoinMoin macro (and used on http://wireless.kernel.org)
 to allow viewing the database for verification.
 
-The dbparse module is also used by db2bin.py, the `compiler', which
-compiles and signs the binary database.
+The dbparse module is also used by db2bin.py and db2fw.py, the `compilers'
+that compile the database to its binary formats.
 
 For more information, please see the CRDA git repository:
 
