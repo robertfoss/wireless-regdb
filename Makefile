@@ -79,9 +79,7 @@ $(REGDB_PUBKEY): $(REGDB_PRIVKEY)
 
 $(REGDB_PUBCERT): $(REGDB_PRIVKEY)
 	@echo "Generating certificate for $(REGDB_AUTHOR)..."
-	@openssl req -config regulatory.openssl.conf \
-		-key $(REGDB_PRIVKEY) -days 36500 -utf8 -nodes -batch \
-		-x509 -outform PEM -out $(REGDB_PUBCERT)
+	./gen-pubcert.sh $(REGDB_PRIVKEY) $(REGDB_PUBCERT)
 	@echo $(REGDB_PUBKEY) > .custom
 
 
