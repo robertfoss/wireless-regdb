@@ -2,6 +2,7 @@
 PREFIX ?= /usr
 CRDA_PATH ?= $(PREFIX)/lib/crda
 CRDA_KEY_PATH ?= $(CRDA_PATH)/pubkeys
+FIRMWARE_PATH ?= /lib/firmware
 
 MANDIR ?= $(PREFIX)/share/man/
 
@@ -117,10 +118,12 @@ install-distro-key: maintainer-clean $(DISTRO_PRIVKEY)
 install: regulatory.bin.5.gz regulatory.db.5.gz
 	install -m 755 -d $(DESTDIR)/$(CRDA_PATH)
 	install -m 755 -d $(DESTDIR)/$(CRDA_KEY_PATH)
+	install -m 755 -d $(DESTDIR)/$(FIRMWARE_PATH)
 	if [ -f .custom ]; then \
 		install -m 644 -t $(DESTDIR)/$(CRDA_KEY_PATH)/ $(shell cat .custom); \
 	fi
 	install -m 644 -t $(DESTDIR)/$(CRDA_KEY_PATH)/ $(REGDB_UPSTREAM_PUBKEY)
-	install -m 644 -t $(DESTDIR)/$(CRDA_PATH)/ regulatory.bin regulatory.db
+	install -m 644 -t $(DESTDIR)/$(CRDA_PATH)/ regulatory.bin
+	install -m 644 -t $(DESTDIR)/$(FIRMWARE_PATH) regulatory.db regulatory.db.p7s
 	install -m 755 -d $(DESTDIR)/$(MANDIR)/man5/
 	install -m 644 -t $(DESTDIR)/$(MANDIR)/man5/ regulatory.bin.5.gz
