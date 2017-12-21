@@ -126,4 +126,4 @@ install: regulatory.bin.5.gz regulatory.db.5.gz
 	install -m 644 -t $(DESTDIR)/$(CRDA_PATH)/ regulatory.bin
 	install -m 644 -t $(DESTDIR)/$(FIRMWARE_PATH) regulatory.db regulatory.db.p7s
 	install -m 755 -d $(DESTDIR)/$(MANDIR)/man5/
-	install -m 644 -t $(DESTDIR)/$(MANDIR)/man5/ regulatory.bin.5.gz
+	install -m 644 -t $(DESTDIR)/$(MANDIR)/man5/ regulatory.bin.5.gz regulatory.db.5.gz
